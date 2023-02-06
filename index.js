@@ -1,3 +1,3 @@
-module.exports = test = () => {
-    console.log("Your package has benn sucessfully added");
+module.exports = getDayOfTheWeek = (date) => {
+    return new Date(date).getDay();
 }
